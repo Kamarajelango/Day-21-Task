@@ -1,0 +1,46 @@
+var board = document.createElement("div");
+board.style.height = "900px";
+board.style.width = "100%";
+board.style.color = "aqua";
+board.style.fontFamily = "Comic Sans MS";
+board.style.textAlign = "center";
+board.style.padding = "center";
+board.style.backgroundColor = "#00DBDE";
+board.style.backgroundImage =
+  "linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%)";
+board.style.fontSize = "100px";
+
+setTimeout(() => {
+  board.innerText = "10";
+  setTimeout(() => {
+    board.innerText = "9";
+    setTimeout(() => {
+      board.innerText = "8";
+      setTimeout(() => {
+        board.innerText = "7";
+        setTimeout(() => {
+          board.innerText = "6";
+          setTimeout(() => {
+            board.innerText = "5";
+            setTimeout(() => {
+              board.innerText = "4";
+              setTimeout(() => {
+                board.innerText = "3";
+                setTimeout(() => {
+                  board.innerText = "2";
+                  setTimeout(() => {
+                    board.innerText = "1";
+                    setTimeout(() => {
+                      board.innerText = "Happy Independence Day";
+                    }, 1000);
+                  }, 1000);
+                }, 1000);
+              }, 1000);
+            }, 1000);
+          }, 1000);
+        }, 1000);
+      }, 1000);
+    }, 1000);
+  }, 1000);
+}, 1000);
+document.body.appendChild(board);
